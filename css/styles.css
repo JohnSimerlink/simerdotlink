@@ -25,26 +25,27 @@ footer{
 .hidden {
   display: none;
 }
-.description {
-  margin: 30%;
+.project-name, .description {
+  margin-left: 30%;
+  margin-right: 30%;
   font-size: 15px !important;
 }
 @media screen and (max-width: 360px) {
-  .description {
-    margin: 5%;
-    margin: 5%;
+  .project-name, .description {
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .name {
     font-size: 70px !important;
   }
 }
 @media screen and (max-width: 720px) {
-  .description {
-    margin: 10%;
+  .project-name, .description {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 #toplogo{
-  padding
   max-height: 100px;
 }
 #cgoup{
